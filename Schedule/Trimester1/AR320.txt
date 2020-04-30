@@ -1,3 +1,0 @@
-Drawing
-G135L
-H24
