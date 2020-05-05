@@ -1,4 +1,4 @@
 Graph Theory with REX Math
-E12L35
 A12L34
 C13L45
+E12L35

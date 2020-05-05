@@ -1,15 +1,15 @@
 College and Career Planning
 E2
-A2
-D3
-B4
-F4
 C3
-C4
-G3
-F3
-B2
 A4
 D2
-E3
+C4
+D3
+F4
+A2
 A3
+E3
+B2
+G3
+F3
+B4
