@@ -59,14 +59,18 @@ def safe(scheds):
 
 app = Flask(__name__)
 
-@app.route("/use_times", methods = ['POST'])
+@app.route("/use_times", methods = ['GET', 'POST'])
 def home():
-    return jsonify({'ip': request.remote_addr})
+    with open("counter.txt") as f:
+        return jsonify({'ip': request.remote_addr, 'counts': f.read()})
     
 @app.route("/", methods = ['GET', 'POST'])
 def home2():
-
     if(request.method == "GET"):
+        with open("counter.txt", "r") as f:
+            c = int(f.read())
+        with open("counter.txt", "w") as f:
+            f.write(str(c + 1))
         return render_template("index.2.html")
     if(request.method == "POST"):
         r = request.form
