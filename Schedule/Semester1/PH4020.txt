@@ -1,7 +1,7 @@
 Physics Core: Mechanics (Math Intensive) (*M*)
-D1235L
+F134L5
 E12L35
 B124L5
-F134L5
-C13L45
 A12L34
+C13L45
+D1235L

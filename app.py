@@ -73,11 +73,9 @@ def home2():
             # print(f'Choice{i+1}')
             tri1 = r.get(f'sem1Choice{i+1}').split(' ')
             if(tri1[0]):
-                print('sem1',tri1)
                 classes[0].append(tri1[0])
             tri2 = r.get(f'sem2Choice{i+1}').split(' ')
             if(tri2[0]):
-                print('sem2',tri2)
                 classes[1].append(tri2[0])
         sem1_meetings = [open(f'Schedule/Semester1/{i}.txt', 'r').read().splitlines()[1:]  for i in classes[0]]
         sem2_meetings = [open(f'Schedule/Semester2/{i}.txt', 'r').read().splitlines()[1:] for i in classes[1]]
@@ -88,20 +86,22 @@ def home2():
         sems = [map(safe,product(*sem1_meetings)), map(safe,product(*sem2_meetings))]
         sem1_success = any(sems[0])
         sem2_success = any(sems[1])
+        print(sem1_meetings, sem2_meetings)
         numpos = [len(list(i)) for i in sems]
         numpos = f"Semester 1: {numpos[0]} combinations<br>Semester 2: {numpos[1]} combinations"
         success = [sem1_success, sem2_success]
-        print(success)
-        schedule = []
+        schedules = [[]]
+        schedule = schedules[0]
+        num1, num2 = 0, 0
         if(all(success)):
             for i in product(*sem1_meetings):
                 if(safe(i)):
+                    num1 += 1
                     schedule.append(i)
-                    break
             for i in product(*sem2_meetings):
                 if(safe(i)):
+                    num2 +=1
                     schedule.append(i)
-                    break
             for i in range(len(schedule)):
                 if('VS' in schedule[i]):
                     schedule[i] = list(schedule[i])
@@ -110,6 +110,10 @@ def home2():
                     classes[i].pop(index)
             schedule = [[(parseSchedule(pattern), classname) for pattern,classname in zip(*i)] for i in zip(schedule, classes)]
             print(schedule)
+            if(len(schedule[0]) == 0):
+                num1 = 0
+            if(len(schedule[1]) == 0):
+                num2 = 0
         schedule2 = [{
             'A1':'Free Time',
             'A2':'Free Time',
@@ -238,7 +242,8 @@ def home2():
         print(n)
         gpa = str(round(gpa,2))
         gpa = gpa if('.' in gpa) else gpa + '.0'
-        return dumps([success, schedule2, gpa, n, numpos])
+        print([num1, num2])
+        return dumps([success, schedule2, gpa, n, numpos, [num1, num2]])
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug = False)
+    app.run(host="0.0.0.0", debug = True)

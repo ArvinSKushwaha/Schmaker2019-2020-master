@@ -25,7 +25,7 @@ AS4050 American Studies,AS4050-013,E12L35
 AS4050 American Studies,AS4050-014,E12L35
 AS4050 American Studies,AS4050-015,E12L35
 AS4050 American Studies,AS4050-016,E12L35
-AS4050 American Studies,AS4050-017,F134L5
+AS4050 American Studies,AS4050-017,E12L35
 AS4050 American Studies,AS4050-018,F134L5
 AS4050 American Studies,AS4050-019,F134L5
 AS4050 American Studies,AS4050-020,F134L5
@@ -84,15 +84,14 @@ CN4652 Readings in Chinese with Topics II,CN4652-001,B1245
 CN4852 AP Chinese Language and Culture II,CN4852-001,B1245
 CS4020 Web Development,CS4020-004,C13L45
 CS4020 Web Development,CS4020-005,D1235L
-CS4050 Cryptography,CS4050-001,A12L34
-MA4050 Cryptography,MA4050-001,A12L34
+CS4050 Cryptography,CS4050-001,E12L35
+MA4050 Cryptography, MA4050-001,E12L35
 "CS4060 Art, Technology, and Computing",CS4060-001,G13L5L
 "AR4060 Art, Technology, and Computing",AR4060-001,G13L5L
 CS4240 Procedural and Object-Oriented Programming,CS4240-003,B124L5
 CS4240 Procedural and Object-Oriented Programming,CS4240-004,E12L35
 CS4280 Advanced Java,CS4280-001,E12L35
 CS4320 Machine Learning,CS4320-001,C13L45
-CS4380 Algorithms,CS4380-001,D1235L
 DR4102 Theater Performance Workshop,DR4102-001,H3
 EE4020 Electrical Engineering,EE4020-003,A12L34
 EE4020 Electrical Engineering,EE4020-004,C13L45
@@ -109,7 +108,7 @@ EN4222 East-West Studies II,EN4222-001,B14L5
 EN4222 East-West Studies II,EN4222-002,F14L5
 EN4242 Western European Cultural Studies II,EN4242-001,H13
 "EN4252 Western Civilizations II: Wisdom, Revelation, Reason, and Doubt",EN4252-001,G13L5
-EN4410 British Literature and Culture,EN4410-002,B124L
+EN4410 British Literature and Culture,EN4410-002,D135L
 EN4440 Philosophy and Literature in the Twentieth Century,EN4440-001,H24
 EN4450 Shakespeare Now,EN4450-001,G135L
 EN4481 Topics in Literature I,EN4481-001,G135L
@@ -121,11 +120,10 @@ FR4052 Advanced French for Global Applications II,FR4052-001,G135L
 HU4010 Applications in Entrepreneurship,HU4010-001,H1D3
 HU4420 Digital Humanities,HU4420-001,D135L
 HU4430 Ethics of AI,HU4430-001,B124L
-HU4440 Film Studies,HU4440-002,D135L
+HU4440 Film Studies,HU4440-002,F14L5
+HU4461 Topics in Humanities II: Mind as Maker of AI,HU4461-00,G13L5
 HU4470 Topics in the Study of Religion,HU4470-001,C13L5
 "HU4490 Women's, Gender, and Sexuality Studies",HU4490-002,C13L5
-"HU4490 Women's, Gender, and Sexuality Studies",HU4490-003,A12L4
-"HU4490 Women's, Gender, and Sexuality Studies",HU4490-004,E12L5
 JA3052 Journeys into Japanese II,JA3052-001,C135H4
 JA3652 Navigating in Japanese II,JA3652-001,D135H4
 LA3052 Latin Elements II,LA3052-001,A12L4
@@ -251,6 +249,7 @@ SP3652 Navigating in Spanish II,SP3652-004,F1345
 SP3850 Explorations in Spanish with Topics,SP3850-001,D1235
 SP4052 Advanced Spanish for Global Applications II,SP4052-001,D1235
 SP4652 Readings in Spanish with Topics II,SP4652-001,G135L
+SS4000 International Relations,SS4000-001,A134
 SS4030 Medical Sociology,SS4030-002,C135
 SS4040 Topics in Psychology,SS4040-001,A134
 SS4050 AP Psychology,SS4050-002,E1235
