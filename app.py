@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, url_for
+from flask import Flask, request, render_template, url_for, jsonify
 from multiprocessing import Pool, cpu_count
 # from functools import reduce
 from itertools import product
@@ -59,8 +59,13 @@ def safe(scheds):
 
 app = Flask(__name__)
 
+@app.route("/use_times", methods = ['POST'])
+def home():
+    return jsonify({'ip': request.remote_addr})
+    
 @app.route("/", methods = ['GET', 'POST'])
 def home2():
+
     if(request.method == "GET"):
         return render_template("index.2.html")
     if(request.method == "POST"):
