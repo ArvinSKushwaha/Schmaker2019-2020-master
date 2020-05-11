@@ -58,11 +58,6 @@ def safe(scheds):
     return False
 
 app = Flask(__name__)
-
-@app.route("/use_times", methods = ['GET', 'POST'])
-def home():
-    with open("counter.txt") as f:
-        return jsonify({'ip': request.remote_addr, 'counts': f.read()})
     
 @app.route("/", methods = ['GET', 'POST'])
 def home2():
