@@ -62,10 +62,6 @@ app = Flask(__name__)
 @app.route("/", methods = ['GET', 'POST'])
 def home2():
     if(request.method == "GET"):
-        with open("counter.txt", "r") as f:
-            c = int(f.read())
-        with open("counter.txt", "w") as f:
-            f.write(str(c + 1))
         return render_template("index.2.html")
     if(request.method == "POST"):
         r = request.form
