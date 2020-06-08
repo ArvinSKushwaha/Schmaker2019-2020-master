@@ -1,4 +1,5 @@
 Course Name,Identifier,Block
+"AR4060 Art, Technology, and Computing",AR4060-001,G13L5L
 AR4100 Drawing,AR4100-002,E12L5
 AR4110 Painting,AR4110-002,D135L
 AR4300 Darkroom Photography,AR4300-002,H24
@@ -84,10 +85,8 @@ CN4652 Readings in Chinese with Topics II,CN4652-001,B1245
 CN4852 AP Chinese Language and Culture II,CN4852-001,B1245
 CS4020 Web Development,CS4020-004,C13L45
 CS4020 Web Development,CS4020-005,D1235L
-CS4050 Cryptography,CS4050-001,E12L35
-MA4050 Cryptography,MA4050-001,E12L35
+CS4200 Cryptography,CS4200-001,E12L35
 "CS4060 Art, Technology, and Computing",CS4060-001,G13L5L
-"AR4060 Art, Technology, and Computing",AR4060-001,G13L5L
 CS4240 Procedural and Object-Oriented Programming,CS4240-003,B124L5
 CS4240 Procedural and Object-Oriented Programming,CS4240-004,E12L35
 CS4280 Advanced Java,CS4280-001,E12L35
@@ -155,13 +154,12 @@ MA4102 AP Statistics w/ Advanced Topics II,MA4102-002,D1235L
 MA4110 Foundations of Data Science,MA4110-003,A12L34
 MA4112 Advanced Data Science,MA4112-001,C13L45
 MA4200 Cryptography,MA4200-001,G13L5L
-CS4200 Cryptography,CS4200-001,G13L5L
 MA4210 Topics in Civic Mathematics,MA4210-001,G13L5
 MA4230 Complex Systems and Modern Networks,MA4230-001,A12L34
 MA4230 Complex Systems and Modern Networks,MA4230-002,D1235L
 MA4240 Numerical Analysis,MA4240-001,C1345
-MA4300 Combinatorics and Game Theory,MA4300-001,E12L35
-MA4300 Combinatorics and Game Theory,MA4300-002,A12L34
+MA4300 Combinatorics and Game Theory,MA4300-001,E12L5
+MA4300 Combinatorics and Game Theory,MA4300-002,A12L4
 MA4310 Topics in Theoretical Mathematics,MA4310-001,F134L5
 MA4500 Graph Theory with REX Math,MA4500-004,B124L5
 MA4522 Advanced Mathematical Topics II,MA4522-001,M12345
