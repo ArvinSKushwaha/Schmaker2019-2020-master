@@ -68,7 +68,7 @@ app = Flask(__name__)
 def home2():
     if(request.method == "GET"):
         with open("SemesterOptions.txt") as f:
-            return render_template("index.2.html", option=f.readlines())
+            return render_template("index.yeet.html", option=f.readlines())
     if(request.method == "POST"):
         r = request.form
         rows = len(r)//2
