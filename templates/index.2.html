@@ -27,13 +27,13 @@
             <tbody id='mainTable'>
                 <tr>
                     <td>
-                        <input list='sem1Classes' placeholder='Enter a class name or code.' class="sem1" name='sem1Choice1'>
+                        <input list='sem1Classes' placeholder='Enter a class name or code.' class="sem1" name='sem1Choice1' onchange="get_validity()">
                         <datalist id='sem1Classes'>
                             {{option[0] | safe}}
 				        </datalist>
                     </td>
                     <td>
-                        <input list='sem2Classes' placeholder='Enter a class name or code.' class="sem2" name='sem2Choice1'>
+                        <input list='sem2Classes' placeholder='Enter a class name or code.' class="sem2" name='sem2Choice1' onchange="get_validity()">
                         <datalist id='sem2Classes'>
                             {{option[1] | safe}}
 				        </datalist>

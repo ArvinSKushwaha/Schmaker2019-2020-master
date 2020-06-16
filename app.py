@@ -105,8 +105,9 @@ def home2():
                 success.append(True)
             else:
                 success.append(False)
-            for class_ in possible_combos[0]:
-                time_taken[semester-1] += minutes(class_)
+            if(combination_count > 0):
+                for class_ in possible_combos[0]:
+                    time_taken[semester-1] += minutes(class_)
             
             schedule = []
             for curr_opt in possible_combos:
