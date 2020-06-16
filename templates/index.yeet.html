@@ -18,7 +18,7 @@
     </div>
     <h1>Enter Your Courses</h1>
     Each column represents a semester. Add new rows and select all of your courses. Then click "Calculate" to get your results.<br> Please note that if there are any conflicts, your schedule will not be generated. <br> The schedule will not perfectly
-    match your real schedule due to classes not being finalized yet.<br><br>
+    match your real schedule due to classes not being finalized yet.<br>Also, once you open up the calendar, you can scroll through all of the possible schedules.<br><span style="color: red;">Note:</span> This does not guarantee that you will get your classes. This just improves the odds that you do.<br><br>
     <p align="center">Here are some useful links:</p>
     <button align="center" class="linker" onclick='window.location.href="https://uniapp.ncssm.edu/registrar/catalog/course_catalog_beta1.3.1.php"'>Course Catalog</button><button align="center" onclick='window.location.href="https://registrar.ncssm.edu"' class="linker">NCSSM Registrar Website</button>
     <br><br><br>
@@ -73,6 +73,14 @@
     </div>
     <div id="2020-2021 NCSSM Timetable_22799" align=center x:publishsource="Excel" class="timetable1" hidden>
         <br><br>
+        <table width=100, align="center">
+            <tr>
+            <td align="right"><button onclick="calVal1 -= 1; set_cals();" class="shiftPoss">Previous</button></td>
+            <td align="center"><p class="cVal1_pos"></p></td>
+            <td align="left"><button onclick="calVal1 += 1; set_cals();" class="shiftPoss">Next</button></td>
+            </tr>
+        </table>
+        <br>
         <table border=0 cellpadding=0 cellspacing=0 width=1033 style='border-collapse:
          collapse;table-layout:fixed;width:778pt'>
          <col width=33 style='mso-width-source:userset;mso-width-alt:1206;width:25pt'>
@@ -422,10 +430,10 @@
          </tr>
          <![endif]>
         </table>
-        <table width=100, align="center">
+        <table width=100 align="center">
             <tr>
             <td align="right"><button onclick="calVal1 -= 1; set_cals();" class="shiftPoss">Previous</button></td>
-            <td align="center"><p id="cVal1_pos"></p></td>
+            <td align="center"><p class="cVal1_pos"></p></td>
             <td align="left"><button onclick="calVal1 += 1; set_cals();" class="shiftPoss">Next</button></td>
             </tr>
         </table>
@@ -433,6 +441,14 @@
 
     <div id="2020-2021 NCSSM Timetable_22799" align=center x:publishsource="Excel" class="timetable2" hidden>
         <br><br>
+        <table width=100 align="center">
+            <tr>
+            <td align="right"><button onclick="calVal2 -= 1; set_cals();" class="shiftPoss">Previous</button></td>
+            <td align="center"><p class="cVal2_pos"></p></td>
+            <td align="left"><button onclick="calVal2 += 1; set_cals();" class="shiftPoss">Next</button></td>
+            </tr>
+        </table>
+        <br>
         <table border=0 cellpadding=0 cellspacing=0 width=1033 style='border-collapse:
             collapse;table-layout:fixed;width:778pt'>
             <col width=33 style='mso-width-source:userset;mso-width-alt:1206;width:25pt'>
@@ -785,7 +801,7 @@
         <table width=100, align="center">
             <tr>
             <td align="right"><button onclick="calVal2 -= 1; set_cals();" class="shiftPoss">Previous</button></td>
-            <td align="center"><p id="cVal2_pos"></p></td>
+            <td align="center"><p class="cVal2_pos"></p></td>
             <td align="left"><button onclick="calVal2 += 1; set_cals();" class="shiftPoss">Next</button></td>
             </tr>
         </table>
@@ -879,8 +895,14 @@
                 calVal2 = mod(calVal2, sched[1].length);
                 classes[0].innerHTML = sched[0][calVal1][keys[i]];
                 classes[1].innerHTML = sched[1][calVal2][keys[i]];
-                document.getElementById("cVal1_pos").innerHTML = calVal1+1+"/"+sched[0].length;
-                document.getElementById("cVal2_pos").innerHTML = calVal2+1+"/"+sched[0].length;
+                for(var c of document.getElementsByClassName("cVal1_pos"))
+                {
+                    c.innerHTML = calVal1+1+"/"+sched[0].length;
+                }
+                for(var c of document.getElementsByClassName("cVal2_pos"))
+                {
+                    c.innerHTML = calVal2+1+"/"+sched[1].length;
+                }
             }
         }
 
@@ -904,6 +926,14 @@
             for (var i = 0; i < keys.length; i++) {
                 for (var k = 0; k < 2; k++) {
                     document.getElementsByClassName(keys[i])[k].innerHTML = keys[i];
+                    if(keys[i] == "GL1")
+                    {
+                        document.getElementsByClassName(keys[i])[k].innerHTML = "G3L";
+                    }
+                    if(keys[i] == "GL2")
+                    {
+                        document.getElementsByClassName(keys[i])[k].innerHTML = "G5L";
+                    }
                 }
             }
         }
