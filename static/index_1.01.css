@@ -1050,6 +1050,14 @@ td > * {
 	transition: 0.25s ease-in-out all;
 }
 
-td > button:hover{
+td > button:hover {
 	background: lightgrey;
+}
+
+.shiftPoss {
+	padding: 20px;
+}
+
+#cVal1_pos, #cVal2_pos {
+	width: 30px;
 }

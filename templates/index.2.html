@@ -422,7 +422,13 @@
          </tr>
          <![endif]>
         </table>
-        
+        <table width=100, align="center">
+            <tr>
+            <td align="right"><button onclick="calVal1 -= 1; set_cals();" class="shiftPoss">Previous</button></td>
+            <td align="center"><p id="cVal1_pos"></p></td>
+            <td align="left"><button onclick="calVal1 += 1; set_cals();" class="shiftPoss">Next</button></td>
+            </tr>
+        </table>
         </div>
 
     <div id="2020-2021 NCSSM Timetable_22799" align=center x:publishsource="Excel" class="timetable2" hidden>
@@ -776,7 +782,13 @@
             </tr>
             <![endif]>
         </table>
-        
+        <table width=100, align="center">
+            <tr>
+            <td align="right"><button onclick="calVal2 -= 1; set_cals();" class="shiftPoss">Previous</button></td>
+            <td align="center"><p id="cVal2_pos"></p></td>
+            <td align="left"><button onclick="calVal2 += 1; set_cals();" class="shiftPoss">Next</button></td>
+            </tr>
+        </table>
         </div>
 
 
@@ -784,7 +796,7 @@
     <script language="javascript" src="{{url_for('static', filename = 'jquery.min.js')}}"></script>
     <script>
         let key = "AIzaSyBex4-3F3AUj6JFfp51h0pYuZpSwd0Zb9w";
-        var rowcount = 1;
+        let rowcount = 1;
 
         function deleteRow() {
             var tableControls = document.getElementById('tableControls')
@@ -810,13 +822,28 @@
             return false;
         })
 
+        function mod(x, y)
+        {
+            if(x >= 0)
+            {
+                return x % y;
+            }
+            if(x < 0)
+            {
+                return (x + y) % y;
+            }
+        }
+
+        let calVal1 = 0;
+        let calVal2 = 0;
+        let sched;
         function get_validity() {
+
             $.post('/', $('.form').serialize(), (data) => {
-                data2 = JSON.parse(data)
-                data = data2[0]
-                sched = data2[1]
-                $("#time_classes").html(data2[3])
-                $("#possib").html(data2[4])
+                data2 = JSON.parse(data);
+                data = data2[0];
+                sched = data2[1];
+                $("#time_classes").html(data2[2])
                 
                 for (let i = 0; i < 2; i++) {
                     if (data[i]) {
@@ -826,26 +853,35 @@
                         document.getElementById('conflict' + i).innerHTML = 'Conflicts';
                         document.getElementById('conflict' + i).style.backgroundColor = "#F66";
                     }
-                    if(data2[5][i] >= 1) {
-                        document.getElementById("sem" + i + "count").innerHTML = data2[5][i] + "<br>possible way(s) to arrange this/these classes without conflicts";
+                    if(data2[3][i] >= 1) {
+                        document.getElementById("sem" + i + "count").innerHTML = data2[3][i] + "<br>possible way(s) to arrange this/these classes without conflicts";
                     }
                     else {
                         document.getElementById("sem" + i + "count").innerHTML = "N/A";
                     }
                 }
-                keys = ["A1", "A2", "A3", "A4", "B1", "B2", "B4", "B5", "C1", "C3", "C4", "C5", "D1", "D2", "D3", "D5", "E1", "E2", "E3", "E5", "F1", "F3", "F4", "F5", "G1", "G3", "G5", "H1", "H2", "H3", "H4", "I1", "I2", "I3", "I4", "AL", "BL", "CL", "DL", "EL", "FL", "GL1", "GL2"]
                 if (data[0] && data[1]) {
                     $('#calbuttons').attr('hidden', false);
-                    for (let i = 0; i < keys.length; i++) {
-                        classes = document.getElementsByClassName(keys[i]);
-                        classes[0].innerHTML = sched[0][keys[i]];
-                        classes[1].innerHTML = sched[1][keys[i]];
-                    }
+                    set_cals();
                 } else {
                     $('#calbuttons').attr('hidden', true);
                     hideall();
                 }
             });
+        }
+
+        function set_cals()
+        {
+            keys = ["A1", "A2", "A3", "A4", "B1", "B2", "B4", "B5", "C1", "C3", "C4", "C5", "D1", "D2", "D3", "D5", "E1", "E2", "E3", "E5", "F1", "F3", "F4", "F5", "G1", "G3", "G5", "H1", "H2", "H3", "H4", "I1", "I2", "I3", "I4", "AL", "BL", "CL", "DL", "EL", "FL", "GL1", "GL2"]
+            for (let i = 0; i < keys.length; i++) {
+                classes = document.getElementsByClassName(keys[i]);
+                calVal1 = mod(calVal1, sched[0].length);
+                calVal2 = mod(calVal2, sched[1].length);
+                classes[0].innerHTML = sched[0][calVal1][keys[i]];
+                classes[1].innerHTML = sched[1][calVal2][keys[i]];
+                document.getElementById("cVal1_pos").innerHTML = calVal1+1+"/"+sched[0].length;
+                document.getElementById("cVal2_pos").innerHTML = calVal2+1+"/"+sched[0].length;
+            }
         }
 
         function hideall() {

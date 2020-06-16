@@ -6,7 +6,6 @@ from itertools import product
 from json import dumps
 from math import floor
 from pprint import pprint
-from collections import defaultdict
 
 KEYS = ["A1", "A2", "A3", "A4", "B1", "B2", "B4", "B5", "C1", "C3", "C4", "C5", "D1", "D2", "D3", "D5", "E1", "E2", "E3", "E5", "F1", "F3", "F4", "F5", "G1", "G3", "G5", "H1", "H2", "H3", "H4", "I1", "I2", "I3", "I4", "AL", "BL", "CL", "DL", "EL", "FL", "GL1", "GL2"]
 
@@ -59,6 +58,7 @@ def unique(arr):
     return len(arr) == len(set(arr))
 
 def safe(combo):
+    if(len(combo) == 0): return True
     m = reduce(add, map(parse, combo))
     return unique(m)
 
@@ -86,7 +86,7 @@ def home2():
                 try:
                     classes.append(r.get(option).split()[0]) # Gives a list of class IDs
                 except IndexError:
-                    classes.append("") # Allow for blank spaces
+                    pass # Allow for blank spaces
             options_per_class = []
             for c in classes:
                 try:
@@ -117,12 +117,12 @@ def home2():
                     for key in parse(meet):
                         curr_sched[key] = c
                 schedule.append(curr_sched)
-            schedules.append(schedule[-1])
+            schedules.append(schedule)
         pprint(schedules)
         time_taken = f"Semester 1: {time_taken[0]//60} hrs {time_taken[0]%60} min<br>Semester 2: {time_taken[1]//60} hrs {time_taken[1]%60} min<br>"
-        x = dumps([success,schedules,0,time_taken,0,combo_count])
+        x = dumps([success,schedules,time_taken,combo_count])
         return x
         
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug = True)
+    app.run(host="0.0.0.0", debug=True)
