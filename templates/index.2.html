@@ -65,7 +65,6 @@
     </table>
     <div class="data">
         <div id="GPACalc">
-            <h3>Maximum GPA:</h3><span id="gpa_calc"> To Be Calculated</span>
             <h3>Hours/Week:</h3><span id="time_classes">To Be Calculated</span>
             <!-- <h3># of Possible Schedules:</h3><span id="possib">To Be Calculated</span> -->
         </div>
@@ -816,11 +815,10 @@
                 data2 = JSON.parse(data)
                 data = data2[0]
                 sched = data2[1]
-                $("#gpa_calc").html(data2[2])
                 $("#time_classes").html(data2[3])
                 $("#possib").html(data2[4])
                 
-                for (let i = 0; i < data.length; i++) {
+                for (let i = 0; i < 2; i++) {
                     if (data[i]) {
                         document.getElementById('conflict' + i).innerHTML = 'No Conflicts';
                         document.getElementById('conflict' + i).style.backgroundColor = "#6F6";
@@ -835,15 +833,11 @@
                         document.getElementById("sem" + i + "count").innerHTML = "N/A";
                     }
                 }
-                console.log(data)
-                console.log(sched)
                 keys = ["A1", "A2", "A3", "A4", "B1", "B2", "B4", "B5", "C1", "C3", "C4", "C5", "D1", "D2", "D3", "D5", "E1", "E2", "E3", "E5", "F1", "F3", "F4", "F5", "G1", "G3", "G5", "H1", "H2", "H3", "H4", "I1", "I2", "I3", "I4", "AL", "BL", "CL", "DL", "EL", "FL", "GL1", "GL2"]
                 if (data[0] && data[1]) {
                     $('#calbuttons').attr('hidden', false);
                     for (let i = 0; i < keys.length; i++) {
-                        console.log(keys[i]);
                         classes = document.getElementsByClassName(keys[i]);
-                        console.log(classes);
                         classes[0].innerHTML = sched[0][keys[i]];
                         classes[1].innerHTML = sched[1][keys[i]];
                     }

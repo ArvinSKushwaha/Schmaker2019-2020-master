@@ -1,7 +1,7 @@
 Course Name,Identifier,Block
 AR4100 Drawing,AR4100-001,C13L5
 AR4110 Painting,AR4110-001,D135L
-AR4300 Darkroom Photography,AR4300-001,H24
+AR4310 Digital Photography,AR4310-001,H24
 AR4320 Art and Technology,AR4320-001,G3L5L
 AR4500 Advanced Drawing,AR4500-001,M12345
 AR4510 Advanced Painting,AR4510-001,M12345
@@ -17,7 +17,7 @@ AS4050 American Studies,AS4050-004,B124L5
 AS4050 American Studies,AS4050-005,C13L45
 AS4050 American Studies,AS4050-006,C13L45
 AS4050 American Studies,AS4050-007,C13L45
-AS4050 American Studies,AS4050-008,D1235L
+AS4050 American Studies,AS4050-008,C13L45
 AS4050 American Studies,AS4050-009,D1235L
 AS4050 American Studies,AS4050-010,D1235L
 AS4050 American Studies,AS4050-011,D1235L
@@ -101,11 +101,11 @@ EN4201 African Studies I,EN4201-001,A12L4
 EN4201 African Studies I,EN4201-002,E12L5
 EN4211 Asian Studies I,EN4211-001,B14L5
 EN4211 Asian Studies I,EN4211-002,F14L5
-EN4221 East-West Studies I,EN4221-001,B14L5
-EN4221 East-West Studies I,EN4221-002,F14L5
 EN4241 Western European Cultural Studies I,EN4241-001,H13
 "EN4251 Western Civilizations I: Wisdom, Revelation, Reason, and Doubt",EN4251-001,D135L
 EN4400 AI in Science Fiction,EN4400-001,B124L
+EN4410 British Literature and Culture,EN4410-001,B14L5
+EN4410 British Literature and Culture,EN4400-002,F14L5
 EN4420 Classical Myth: Epic and Tragedy,EN4420-001,G135L
 EN4430 Modern World Fiction,EN4430-001,H24
 EN4460 Southern Studies,EN4460-001,C13L5
@@ -118,8 +118,10 @@ FR3651 Navigating in French I,FR3651-001,B1245
 FR4051 Advanced French for Global Applications I,FR4051-001,G13L5
 HU4000 Entrepreneurship,HU4000-001,H4
 HU4410 Critical Race Theory,HU4410-001,C13L5
+"HU4450 Race, Leadership, and Ethics",HU4450-001,A12L4
 HU4460 Topics in Humanities I,HU4460-001,G135L
 "HU4490 Women's, Gender, and Sexuality Studies",HU4490-001,F14L5
+"HU4490 Women's, Gender, and Sexuality Studies",HU4490-002,D135L
 JA3051 Journeys into Japanese I,JA3051-001,C135H4
 JA3651 Navigating in Japanese I,JA3651-001,D135H4
 LA3051 Latin Elements I,LA3051-001,A12L4
@@ -143,6 +145,7 @@ MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-005,F134L5
 MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-006,A12L34
 MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-007,D1235L
 MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-008,F134L5
+MA4032 AP Calculus BC w/ Adcanced Topics II,MA4032-001,G13L5L
 MA4050 Modeling with Differential Equations,MA4050-001,E12L35
 MA4050 Modeling with Differential Equations,MA4050-002,A12L34
 MA4060 Multivariable Calculus,MA4060-001,F134L5
@@ -248,7 +251,6 @@ SP4651 Readings in Spanish with Topics I,SP4651-001,G135L
 SS4020 Sociology,SS4020-001,A134
 SS4030 Medical Sociology,SS4030-001,E135
 SS4050 AP Psychology,SS4050-001,C1345
-SS4060 AP Microeconomics,SS4060-001,D135L
 SS4060 AP Microeconomics,SS4060-002,G135L
 SS4081 Topics in History/Social Science I: The 2020 Presidnetial Election,SS4081-001,A134
 VS1002 Men's Soccer,VS1002-001,M12345

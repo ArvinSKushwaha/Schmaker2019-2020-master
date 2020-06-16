@@ -2,7 +2,7 @@ Course Name,Identifier,Block
 "AR4060 Art, Technology, and Computing",AR4060-001,G13L5L
 AR4100 Drawing,AR4100-002,E12L5
 AR4110 Painting,AR4110-002,D135L
-AR4300 Darkroom Photography,AR4300-002,H24
+AR4310 Digital Photography,AR4310-002,H24
 AR4500 Advanced Drawing,AR4500-002,M12345
 AR4510 Advanced Painting,AR4510-002,M12345
 AR4520 Advanced Studio Art,AR4520-002,M12345
@@ -17,7 +17,7 @@ AS4050 American Studies,AS4050-004,B124L5
 AS4050 American Studies,AS4050-005,C13L45
 AS4050 American Studies,AS4050-006,C13L45
 AS4050 American Studies,AS4050-007,C13L45
-AS4050 American Studies,AS4050-008,D1235L
+AS4050 American Studies,AS4050-008,C13L45
 AS4050 American Studies,AS4050-009,D1235L
 AS4050 American Studies,AS4050-010,D1235L
 AS4050 American Studies,AS4050-011,D1235L
@@ -103,13 +103,12 @@ EN4202 African Studies II,EN4202-001,A12L4
 EN4202 African Studies II,EN4202-002,E12L5
 EN4212 Asian Studies II,EN4212-001,B14L5
 EN4212 Asian Studies II,EN4212-002,F14L5
-EN4222 East-West Studies II,EN4222-001,B14L5
-EN4222 East-West Studies II,EN4222-002,F14L5
 EN4242 Western European Cultural Studies II,EN4242-001,H13
 "EN4252 Western Civilizations II: Wisdom, Revelation, Reason, and Doubt",EN4252-001,G13L5
-EN4410 British Literature and Culture,EN4410-002,D135L
 EN4440 Philosophy and Literature in the Twentieth Century,EN4440-001,H24
-EN4450 Shakespeare Now,EN4450-001,G135L
+EN4450 Shakespeare Now,EN4450-001,B14L5
+EN4450 Shakespeare Now,EN4450-002,F14L5
+EN4470 STEM and the Stage,EN4470-001,G135L
 EN4481 Topics in Literature I,EN4481-001,G135L
 EN4600 Research Experience in the Humanities,EN4600-001,H13
 EN4600 Research Experience in the Humanities,EN4600-002,H24
@@ -117,12 +116,14 @@ FR3052 Journeys into French II,FR3052-001,A1234
 FR3652 Navigating in French II,FR3652-001,B1245
 FR4052 Advanced French for Global Applications II,FR4052-001,G135L
 HU4010 Applications in Entrepreneurship,HU4010-001,H1D3
+HU4410 Critical Race Theory,HU4410-001,C13L5
 HU4420 Digital Humanities,HU4420-001,D135L
 HU4430 Ethics of AI,HU4430-001,B124L
+HU4440 Film Studies,HU4440-001,D135L
 HU4440 Film Studies,HU4440-002,F14L5
 HU4461 Topics in Humanities II: Mind as Maker of AI,HU4461-00,G13L5
 HU4470 Topics in the Study of Religion,HU4470-001,C13L5
-"HU4490 Women's, Gender, and Sexuality Studies",HU4490-002,C13L5
+"HU4490 Women's, Gender, and Sexuality Studies",HU4490-002,D135L
 JA3052 Journeys into Japanese II,JA3052-001,C135H4
 JA3652 Navigating in Japanese II,JA3652-001,D135H4
 LA3052 Latin Elements II,LA3052-001,A12L4
@@ -251,7 +252,6 @@ SS4000 International Relations,SS4000-001,A134
 SS4030 Medical Sociology,SS4030-002,C135
 SS4040 Topics in Psychology,SS4040-001,A134
 SS4050 AP Psychology,SS4050-002,E1235
-SS4070 AP Macroeconomics,SS4070-001,D135L
 SS4070 AP Macroeconomics,SS4070-002,G135L
 VS1022 Men's Basketball,VS1022-001,M12345
 VS1024 Women's Basketball,VS1024-001,M12345

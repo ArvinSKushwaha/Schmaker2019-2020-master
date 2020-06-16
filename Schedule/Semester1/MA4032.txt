@@ -1,7 +1,2 @@
-AP Calculus BC w/ Advanced Topics II
-D1235L
-A12L34
-C13L45
-F134L5
-B124L5
-E12L35
+AP Calculus BC w/ Adcanced Topics II
+G13L5L
