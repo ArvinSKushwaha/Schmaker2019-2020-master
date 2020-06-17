@@ -1,6 +1,6 @@
 Navigating in Spanish I
 A1234
-B1245
 E1235
-D1235
 F1345
+D1235
+B1245
