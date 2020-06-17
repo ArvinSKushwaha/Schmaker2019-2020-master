@@ -85,7 +85,7 @@ def home2():
             for choice in range(1, rows+1):
                 option = f"sem{semester}Choice{choice}" # Generates the keys for the request.form dictionary
                 try:
-                    classes.append(r.get(option).split()[0]) # Gives a list of class IDs
+                    classes.append(r.get(option).split()[0].upper()) # Gives a list of class IDs
                 except IndexError:
                     pass # Allow for blank spaces
             options_per_class = []
