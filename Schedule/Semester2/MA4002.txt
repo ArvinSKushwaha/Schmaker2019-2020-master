@@ -1,6 +1,4 @@
 Precalculus & Modeling w/ Advanced Topics II
-F134L5
-C13L45
 B124L5
 E12L35
-D1235L
+F134L5

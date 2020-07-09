@@ -38,37 +38,34 @@ BI3640 Developmental Biology (*R*),BI3640-001,A12L34
 BI3640 Developmental Biology (*R*),BI3640-002,E12L35
 BI4010 Anatomy & Physiology,BI4010-001,B124L5
 BI4010 Anatomy & Physiology,BI4010-002,D1235L
+BI4010 Anatomy & Physiology,BI4010-003,F134L5
 BI4020 Ecology (*R*),BI4020-001,B124L5
 BI4020 Ecology (*R*),BI4020-002,F134L5
-BI4020 Ecology (*R*),BI4020-003,D1235L
 BI4040 Climate Change Biology (*M*),BI4040-001,A12L34
 BI4040 Climate Change Biology (*M*),BI4040-002,E12L35
 BI4110 Molecular Genetics (*R*),BI4110-001,A12L34
 BI4110 Molecular Genetics (*R*),BI4110-002,E12L35
 BI4120 Population Genetics (*M*),BI4120-001,B124L5
-BI4120 Population Genetics (*M*),BI4120-002,F134L5
 BI4210 AP Biology (I) (*R*),BI4210-001,B124L5
-BI4210 AP Biology (I) (*R*),BI4210-002,F134L5
 BI4210 AP Biology (I) (*R*),BI4210-003,D1235L
 BI4922 Research in Biology III (*R*),BI4922-001,F134L5G13L5L
 BI4922 Research in Biology III (*R*),BI4922-002,F134L5G13L5L
 CH3500 Chemistry Core - Atoms & Molecules,CH3500-001,A12L34
 CH3500 Chemistry Core - Atoms & Molecules,CH3500-002,E12L35
 CH3500 Chemistry Core - Atoms & Molecules,CH3500-003,C13L45
-CH4000 Chemistry Core - Reactions & Energy,CH4000-001,B124L5
-CH4000 Chemistry Core - Reactions & Energy,CH4000-002,F134L5
 CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-001,D1235L
 CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-001,A12L34
 CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-003,E12L35
 CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-004,C13L45
 CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-005,B124L5
 CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-006,F134L5
+CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-007,B124L5
+CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-008,F134L5
+CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-009,D1235L
 CH4130 Organic Chemistry,CH4130-001,C13L45
 CH4130 Organic Chemistry,CH4130-002,B124L5
-CH4140 Environmental Chem (*R*),CH4140-001,A12L34
 CH4140 Environmental Chem (*R*),CH4140-002,E12L35
 CH4280 Materials Chemistry (*R*),CH4280-001,A12L34
-CH4290 Biochemistry (*R*),CH4290-001,C13L45
 CH4911 Research Computational Sci II,CH4911-001,F1345
 CH4922 Research Chem III (*R*),CH4922-001,F134L5G13L5L
 CH4922 Research Chem III (*R*),CH4922-002,F134L5G13L5L
@@ -102,10 +99,10 @@ EN4201 African Studies I,EN4201-002,E12L5
 EN4211 Asian Studies I,EN4211-001,B14L5
 EN4211 Asian Studies I,EN4211-002,F14L5
 EN4241 Western European Cultural Studies I,EN4241-001,H13
+EN4241 Western European Cultural Studies I,EN4241-001,I13
 "EN4251 Western Civilizations I: Wisdom, Revelation, Reason, and Doubt",EN4251-001,D135L
 EN4400 AI in Science Fiction,EN4400-001,B124L
 EN4410 British Literature and Culture,EN4410-001,B14L5
-EN4410 British Literature and Culture,EN4400-002,F14L5
 EN4420 Classical Myth: Epic and Tragedy,EN4420-001,G135L
 EN4430 Modern World Fiction,EN4430-001,H24
 EN4460 Southern Studies,EN4460-001,C13L5
@@ -128,11 +125,8 @@ LA3051 Latin Elements I,LA3051-001,A12L4
 LA3650 Latin Boot Camp,LA3650-001,B14L5
 LA4661 Ovid's Metamorphoses I,LA4661-001,D135L
 MA4000 Precalculus & Modeling w/ Advanced Topics I,MA4000-001,E12L35
-MA4000 Precalculus & Modeling w/ Advanced Topics I,MA4000-002,B124L5
 MA4000 Precalculus & Modeling w/ Advanced Topics I,MA4000-003,B124L5
-MA4000 Precalculus & Modeling w/ Advanced Topics I,MA4000-004,C13L45
 MA4000 Precalculus & Modeling w/ Advanced Topics I,MA4000-005,F134L5
-MA4000 Precalculus & Modeling w/ Advanced Topics I,MA4000-006,D1235L
 MA4000 Precalculus & Modeling w/ Advanced Topics I,MA4000-007,A12L34
 MA4010 Biocalculus,MA4010-001,B124L
 MA4020 AP Calculus AB w/ Advanced Topics I,MA4020-001,B124L5
@@ -145,22 +139,23 @@ MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-005,F134L5
 MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-006,A12L34
 MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-007,D1235L
 MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-008,F134L5
+MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-009,C13L45
+MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-010,E12L35
 MA4032 AP Calculus BC w/ Adcanced Topics II,MA4032-001,G13L5L
 MA4050 Modeling with Differential Equations,MA4050-001,E12L35
 MA4050 Modeling with Differential Equations,MA4050-002,A12L34
 MA4060 Multivariable Calculus,MA4060-001,F134L5
 MA4060 Multivariable Calculus,MA4060-002,D1235L
+MA4060 Multivariable Calculus,MA4060-003,E12L35
 MA4100 AP Statistics w/ Advanced Topics I,MA4100-001,C13L45
 MA4100 AP Statistics w/ Advanced Topics I,MA4100-002,D1235L
+MA4100 AP Statistics w/ Advanced Topics I,MA4100-003,F134L5
 MA4110 Foundations of Data Science,MA4110-001,C13L45
 MA4110 Foundations of Data Science,MA4110-002,A12L34
 MA4220 Mathematical Modeling,MA4220-001,D1235L
 MA4220 Mathematical Modeling,MA4220-002,G13L5L
-MA4220 Mathematical Modeling,MA4220-003,F134L5
 MA4500 Graph Theory with REX Math,MA4500-001,A12L34
 MA4500 Graph Theory with REX Math,MA4500-002,C13L45
-MA4500 Graph Theory with REX Math,MA4500-003,E12L35
-MA4520 Advanced Mathematical Topics I,MA4520-001,M12345
 MR4040 Engage to Impact,MR4040-001,M12345
 MR4050 Mentorship: Senior Research,MR4050-001,F14LE2L
 MU3500 Classical Piano and Guitar,MU3500-001,E135
@@ -189,8 +184,8 @@ PH3500 Physics Core: Mechanics,PH3500-001,C13L45
 PH3500 Physics Core: Mechanics,PH3500-002,B124L5
 PH3500 Physics Core: Mechanics,PH3500-003,F134L5
 PH3500 Physics Core: Mechanics,PH3500-004,D1235L
-"PH3920 Waves Sound, and Optics",PH3920-001,B124L5
-"PH3920 Waves Sound, and Optics",PH3920-002,D1235L
+PH3500 Physics Core: Mechanics,PH3500-005,A12L34
+PH3500 Physics Core: Mechanics,PH3500-006,E12L35
 PH4020 Physics Core: Mechanics (Math Intensive) (*M*),PH4020-001,A12L34
 PH4020 Physics Core: Mechanics (Math Intensive) (*M*),PH4020-002,E12L35
 PH4020 Physics Core: Mechanics (Math Intensive) (*M*),PH4020-003,C13L45
@@ -201,7 +196,7 @@ PH4130 Computational Physics,PH4130-001,C13L45
 PH4180 Astrophysics (*R*),PH4180-001,G13L5L
 PH4240 AP Physics C: Mechanics,PH4240-001,A12L34
 PH4240 AP Physics C: Mechanics,PH4240-002,E12L35
-PH4250 Modern Physics,PH4250-001,A12L34
+PH4250 Modern Physics,PH4250-001,D1235L
 PH4260 Quantum Mechanics,PH4260-001,C13L45
 PH4922 Research in Physics III (*R*),PH4922-001,F134L5G13L5L
 RE1002 Cornerstone,RE1002-001,D2
@@ -241,12 +236,11 @@ SL1001 Campus Service,SL1001-001,M12345
 SP3051 Journeys into Spanish I,SP3051-001,B1245
 SP3051 Journeys into Spanish I,SP3051-002,D1235
 SP3051 Journeys into Spanish I,SP3051-003,E1235
-SP3651 Navigating in Spanish I,SP3651-001,A1234
 SP3651 Navigating in Spanish I,SP3651-002,B1245
 SP3651 Navigating in Spanish I,SP3651-003,E1235
 SP3651 Navigating in Spanish I,SP3651-004,D1235
-SP3651 Navigating in Spanish I,SP3651-005,F1345
 SP4051 Advanced Spanish for Global Applications I,SP4051-001,D1235
+SP4051 Advanced Spanish for Global Applications I,SP4051-002,A1234
 SP4651 Readings in Spanish with Topics I,SP4651-001,G135L
 SS4020 Sociology,SS4020-001,A134
 SS4030 Medical Sociology,SS4030-001,E135
