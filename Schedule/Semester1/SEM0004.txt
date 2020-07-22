@@ -1,3 +1,2 @@
 Calculus Co-Requisite
-G15L
-G13L
+

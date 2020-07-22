@@ -1,4 +1,2 @@
 Multivariable Calculus
-D1235L
-F134L5
-E12L35
+

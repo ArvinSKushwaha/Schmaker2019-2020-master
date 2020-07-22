@@ -1,7 +1,2 @@
 Physics Core: Mechanics
-E12L35
-A12L34
-D1235L
-B124L5
-F134L5
-C13L45
+
