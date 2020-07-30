@@ -1,15 +1,2 @@
 Cornerstone
-C4
-A2
-B2
-G3
-E3
-D2
-F3
-D3
-B4
-C3
-A4
-A3
-F134L5G13L5L
-E2
+

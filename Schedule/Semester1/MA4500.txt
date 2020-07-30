@@ -1,3 +1,2 @@
 Graph Theory with REX Math
-C13L45
-A12L34
+

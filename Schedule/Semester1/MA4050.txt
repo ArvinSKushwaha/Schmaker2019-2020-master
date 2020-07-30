@@ -1,3 +1,2 @@
 Modeling with Differential Equations
-E12L35
-A12L34
+
