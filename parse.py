@@ -1,9 +1,9 @@
 import csv
 import sys
 
-for i in range(1, 2+1):
+for i in range(1, 2):
     w = str(i)
-    with open("Sem" + w + ".csv") as f:
+    with open("Sem" + w + ".csv", "r") as f:
         courses = list(csv.reader(f))[1:]
         course_names = [i[0] for i in courses]
         names = []

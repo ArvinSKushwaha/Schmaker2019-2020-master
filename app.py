@@ -37,7 +37,10 @@ def minutes(sched):
     return time
 
 def parse(meetings):
-    block = meetings[0]
+    if meetings:
+        block = meetings[0]
+    else:
+        return []
     if(block not in 'ABCDEFGHI'):
         return []
     blocks = []
@@ -120,7 +123,7 @@ def home2():
                         curr_sched[key] = c
                 schedule.append(curr_sched)
             schedules.append(schedule)
-        pprint(schedules)
+        # pprint(schedules)
         time_taken = f"Semester 1: {time_taken[0]//60} hrs {time_taken[0]%60} min<br>Semester 2: {time_taken[1]//60} hrs {time_taken[1]%60} min<br>"
         x = dumps([success,schedules,time_taken,combo_count])
         return x

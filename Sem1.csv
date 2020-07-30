@@ -1,256 +1,255 @@
-Course Name,Identifier,Block,
-AR4100 Drawing,AR4100-001,C13L5,
-AR4110 Painting,AR4110-001,D135L,
-AR4310 Digital Photography,AR4310-001,H24,
-AR4320 Art and Technology,AR4320-001,G3L5L,
-AR4500 Advanced Drawing,AR4500-001,M12345,
-AR4510 Advanced Painting,AR4510-001,M12345,
-AR4520 Advanced Studio Art,AR4520-001,M12345,
-AS4030 Writing and American Studies,AS4030-001,A12L34,
-AS4030 Writing and American Studies,AS4030-002,A12L34,
-AS4030 Writing and American Studies,AS4030-003,B124L5,
-AS4030 Writing and American Studies,AS4030-004,B124L5,
-AS4050 American Studies,AS4050-001,A12L34,
-AS4050 American Studies,AS4050-002,A12L34,
-AS4050 American Studies,AS4050-003,B124L5,
-AS4050 American Studies,AS4050-004,B124L5,
-AS4050 American Studies,AS4050-005,C13L45,
-AS4050 American Studies,AS4050-006,C13L45,
-AS4050 American Studies,AS4050-007,C13L45,
-AS4050 American Studies,AS4050-008,C13L45,
-AS4050 American Studies,AS4050-009,D1235L,
-AS4050 American Studies,AS4050-010,D1235L,
-AS4050 American Studies,AS4050-011,D1235L,
-AS4050 American Studies,AS4050-012,E12L35,
-AS4050 American Studies,AS4050-013,E12L35,
-AS4050 American Studies,AS4050-014,E12L35,
-AS4050 American Studies,AS4050-015,E12L35,
-AS4050 American Studies,AS4050-016,E12L35,
-AS4050 American Studies,AS4050-017,E12L35,
-AS4050 American Studies,AS4050-018,F134L5,
-AS4050 American Studies,AS4050-019,F134L5,
-AS4050 American Studies,AS4050-020,F134L5,
-AS4050 American Studies,AS4050-021,F134L5,
-AS4050 American Studies,AS4050-022,G13L5L,
-AS4050 American Studies,AS4050-023,G13L5L,
-BI3580 Classical Genetics (*M*),BI3580-001,C13L45,
-BI3640 Developmental Biology (*R*),BI3640-001,A12L34,
-BI3640 Developmental Biology (*R*),BI3640-002,E12L35,
-BI4010 Anatomy & Physiology,BI4010-001,B124L5,
-BI4010 Anatomy & Physiology,BI4010-002,D1235L,
-BI4010 Anatomy & Physiology,BI4010-003,F134L5,
-BI4020 Ecology (*R*),BI4020-001,B124L5,
-BI4020 Ecology (*R*),BI4020-002,F134L5,
-BI4040 Climate Change Biology (*M*),BI4040-001,A12L34,
-BI4040 Climate Change Biology (*M*),BI4040-002,E12L35,
-BI4110 Molecular Genetics (*R*),BI4110-001,A12L34,
-BI4110 Molecular Genetics (*R*),BI4110-002,E12L35,
-BI4120 Population Genetics (*M*),BI4120-001,B124L5,
-BI4210 AP Biology (I) (*R*),BI4210-001,B124L5,
-BI4210 AP Biology (I) (*R*),BI4210-003,D1235L,
-BI4922 Research in Biology III (*R*),BI4922-001,F134L5G13L5L,
-BI4922 Research in Biology III (*R*),BI4922-002,F134L5G13L5L,
-CH3500 Chemistry Core - Atoms & Molecules,CH3500-001,A12L34,
-CH3500 Chemistry Core - Atoms & Molecules,CH3500-002,E12L35,
-CH3500 Chemistry Core - Atoms & Molecules,CH3500-003,C13L45,
-CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-001,D1235L,
-CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-001,A12L34,
-CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-003,E12L35,
-CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-004,C13L45,
-CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-005,B124L5,
-CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-006,F134L5,
-CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-007,B124L5,
-CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-008,F134L5,
-CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-009,D1235L,
-CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-010,G13L5L,
-CH4130 Organic Chemistry,CH4130-001,C13L45,
-CH4130 Organic Chemistry,CH4130-002,B124L5,
-CH4280 Materials Chemistry (*R*),CH4280-001,A12L34,
-CH4911 Research Computational Sci II,CH4911-001,F1345,
-CH4922 Research Chem III (*R*),CH4922-001,F134L5G13L5L,
-CH4922 Research Chem III (*R*),CH4922-002,F134L5G13L5L,
-CN3051 Journeys into Chinese I,CN3051-001,C1345,
-CN3051 Journeys into Chinese I,CN3051-002,D1235,
-CN3651 Navigating in Chinese + Global Understanding I,CN3651-001,C13L45,
-CN3651 Navigating in Chinese + Global Understanding I,CN3651-002,D1235L,
-CN4051 Advanced Chinese I,CN4051-001,A1234,
-CN4651 Readings in Chinese with Topics I,CN4651-001,B1245,
-CN4851 AP Chinese Language and Culture I,CN4851-001,B1245,
-CS4020 Web Development,CS4020-001,D1235L,
-CS4020 Web Development,CS4020-002,E12L35,
-CS4020 Web Development,CS4020-003,C13L45,
-CS4040 Game Design and Simulation,CS4040-001,E12L35,
-CS4240 Procedural and Object-Oriented Programming,CS4240-001,B124L5,
-CS4240 Procedural and Object-Oriented Programming,CS4240-002,F134L5,
-CS4260 Java with Topics,CS4260-001,A12L34,
-CS4340 Data Structures with C,CS4340-001,C13L45,
-DR4101 Theater Performance Workshop,DR4101-001,H3,
-EE3100 CAD/CAM,EE3100-001,A12L34,
-EE4000 Mechanical Engineering,EE4000-001,B124L5,
-EE4000 Mechanical Engineering,EE4000-002,F134L5,
-EE4020 Electrical Engineering,EE4020-001,B124L5,
-EE4020 Electrical Engineering,EE4020-002,D1235L,
-EE4040 Architecture,EE4040-001,G13L5L,
-EE4080 Biomedical Engineering,EE4080-000,A12L34,
-EE4080 Biomedical Engineering,EE4080-001,C13L45,
-EE4100 Introductory Robotics,EE4100-001,D1235L,
-EN4201 African Studies I,EN4201-001,A12L4,
-EN4201 African Studies I,EN4201-002,E12L5,
-EN4211 Asian Studies I,EN4211-001,B14L5,
-EN4211 Asian Studies I,EN4211-002,F14L5,
-EN4241 Western European Cultural Studies I,EN4241-001,H13,
-EN4241 Western European Cultural Studies I,EN4241-001,I13,
-"EN4251 Western Civilizations I: Wisdom, Revelation, Reason, and Doubt",EN4251-001,D135L,
-EN4400 AI in Science Fiction,EN4400-001,B124L,
-EN4410 British Literature and Culture,EN4410-001,B14L5,
-EN4420 Classical Myth: Epic and Tragedy,EN4420-001,G135L,
-EN4430 Modern World Fiction,EN4430-001,H24,
-EN4460 Southern Studies,EN4460-001,C13L5,
-EN4470 STEM and the Stage,EN4470-001,G135L,
-EN4481 Topics in Literature I: Modern Latin American Literature in Translation,EN4481-001,D135L,
-EN4610 Research in the Humanities,EN4610-001,H13,
-EN4610 Research in the Humanities,EN4610-002,H24,
-FR3051 Journeys into French I,FR3051-001,A1234,
-FR3651 Navigating in French I,FR3651-001,B1245,
-FR4051 Advanced French for Global Applications I,FR4051-001,G13L5,
-HU4000 Entrepreneurship,HU4000-001,H4,
-HU4410 Critical Race Theory,HU4410-001,C13L5,
-"HU4450 Race, Leadership, and Ethics",HU4450-001,A12L4,
-HU4460 Topics in Humanities I,HU4460-001,G135L,
-"HU4490 Women's, Gender, and Sexuality Studies",HU4490-001,F14L5,
-"HU4490 Women's, Gender, and Sexuality Studies",HU4490-002,D135L,
-JA3051 Journeys into Japanese I,JA3051-001,C135H4,
-JA3651 Navigating in Japanese I,JA3651-001,D135H4, 
-LA3051 Latin Elements I,LA3051-001,A12L4,
-LA3650 Latin Boot Camp,LA3650-001,B14L5,
-LA4661 Ovid's Metamorphoses I,LA4661-001,D135L,
-MA4000 Precalculus & Modeling w/ Advanced Topics I,MA4000-001,E12L35,
-MA4000 Precalculus & Modeling w/ Advanced Topics I,MA4000-003,B124L5,
-MA4000 Precalculus & Modeling w/ Advanced Topics I,MA4000-005,F134L5,
-MA4000 Precalculus & Modeling w/ Advanced Topics I,MA4000-007,A12L34,
-MA4010 Biocalculus,MA4010-001,E12L5,
-MA4020 AP Calculus AB w/ Advanced Topics I,MA4020-001,B124L5,
-MA4020 AP Calculus AB w/ Advanced Topics I,MA4020-002,F134L5,
-MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-001,E12L35,
-MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-002,C13L45,
-MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-003,B124L5,
-MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-004,B124L5,
-MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-005,F134L5,
-MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-006,A12L34,
-MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-007,D1235L,
-MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-008,F134L5,
-MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-009,C13L45,
-MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-010,E12L35,
-MA4032 AP Calculus BC w/ Adcanced Topics II,MA4032-001,G13L5L,
-MA4050 Modeling with Differential Equations,MA4050-001,E12L35,
-MA4050 Modeling with Differential Equations,MA4050-002,A12L34,
-MA4060 Multivariable Calculus,MA4060-001,F134L5,
-MA4060 Multivariable Calculus,MA4060-002,D1235L,
-MA4060 Multivariable Calculus,MA4060-003,E12L35,
-MA4100 AP Statistics w/ Advanced Topics I,MA4100-001,C13L45,
-MA4100 AP Statistics w/ Advanced Topics I,MA4100-002,D1235L,
-MA4100 AP Statistics w/ Advanced Topics I,MA4100-003,F134L5,
-MA4110 Foundations of Data Science,MA4110-001,C13L45,
-MA4110 Foundations of Data Science,MA4110-002,A12L34,
-MA4220 Mathematical Modeling,MA4220-001,D1235L,
-MA4220 Mathematical Modeling,MA4220-002,G13L5L,
-MA4500 Graph Theory with REX Math,MA4500-001,A12L34,
-MA4500 Graph Theory with REX Math,MA4500-002,C13L45,
-MR4040 Engage to Impact,MR4040-001,M12345,
-MR4050 Mentorship: Senior Research,MR4050-001,F14LE2L,
-MU3500 Classical Piano and Guitar,MU3500-001,E135,
-MU3500 Classical Piano and Guitar,MU3500-002,D125,
-MU3500 Classical Piano and Guitar,MU3500-003,G135,
-MU4100 Chorale,MU4100-001,H24,
-MU4110 Wind Ensemble,MU4110-001,H4C3L5,
-MU4110 Wind Ensemble,MU4110-002,H4F35,
-MU4120 Jazz Performance Workshop,MU4120-001,C14,
-MU4130 Orchestra,MU4130-001,H2C3L5,
-MU4130 Orchestra,MU4130-002,H2F35,
-MU4300 Music Theory and Composition,MU4300-001,M12345,
-PA1000 Racquet Sports I,PA1000-001,A2L,
-PA1001 Racquet Sports II,PA1001-001,E2L,
-PA1002 Outdoor Recreation,PA1002-001,B4L,
-PA1003 Disc Sports,PA1003-001,C3L,
-PA1004 Archery,PA1004-001,F4L,
-PA1005 Weight Trng/Sprts & Fitness,PA1005-001,G3L,
-PA1006 Team Sports,PA1006-001,D5L,
-PA1006 Team Sports,PA1006-002,G5L,
-PA1007 Pilates & Yoga,PA1007-001,A2L,
-PA1007 Pilates & Yoga,PA1007-002,E2L,
-PA1008 Self Defense,PA1008-001,C3L,
-PH3040 Astronomy,PH3040-001,F134L5,
-PH3500 Physics Core: Mechanics,PH3500-001,C13L45,
-PH3500 Physics Core: Mechanics,PH3500-002,B124L5,
-PH3500 Physics Core: Mechanics,PH3500-003,F134L5,
-PH3500 Physics Core: Mechanics,PH3500-004,D1235L,
-PH3500 Physics Core: Mechanics,PH3500-005,A12L34,
-PH3500 Physics Core: Mechanics,PH3500-006,E12L35,
-PH4020 Physics Core: Mechanics (Math Intensive) (*M*),PH4020-001,A12L34,
-PH4020 Physics Core: Mechanics (Math Intensive) (*M*),PH4020-002,E12L35,
-PH4020 Physics Core: Mechanics (Math Intensive) (*M*),PH4020-003,C13L45,
-PH4020 Physics Core: Mechanics (Math Intensive) (*M*),PH4020-004,B124L5,
-PH4020 Physics Core: Mechanics (Math Intensive) (*M*),PH4020-005,F134L5,
-PH4020 Physics Core: Mechanics (Math Intensive) (*M*),PH4020-007,B124L5,
-PH4020 Physics Core: Mechanics (Math Intensive) (*M*),PH4020-006,D1235L,
-PH4130 Computational Physics,PH4130-001,C13L45,
-PH4240 AP Physics C: Mechanics,PH4180-001,G13L5L,
-PH4240 AP Physics C: Mechanics,PH4240-001,A12L34,
-PH4250 Modern Physics,PH4240-002,E12L35,
-PH4260 Quantum Mechanics,PH4250-001,D1235L,
-PH4922 Research in Physics III (*R*),PH4260-001,C13L45,
-RE1002 Cornerstone,PH4922-001,F134L5G13L5L,
-RE1002 Cornerstone,RE1002-001,D2,
-RE1002 Cornerstone,RE1002-002,B2,
-RE1002 Cornerstone,RE1002-003,B2,
-RE1002 Cornerstone,RE1002-004,A2,
-RE1002 Cornerstone,RE1002-005,E2,
-RE1002 Cornerstone,RE1002-006,A3,
-RE1002 Cornerstone,RE1002-007,D3,
-RE1002 Cornerstone,RE1002-008,C3,
-RE1002 Cornerstone,RE1002-009,G3,
-RE1002 Cornerstone,RE1002-010,F3,
-RE1002 Cornerstone,RE1002-011,E3,
-RE1002 Cornerstone,RE1002-012,C4,
-RE1002 Cornerstone,RE1002-013,A4,
-RE1002 Cornerstone,RE1002-014,A4,
-RE1002 Cornerstone,RE1002-015,B4,
-RE1010 Exploring MultiCultural Amer,RE1002-016,F4,
-RE1012 Public Speaking,RE1010-001,E3,
-RE1016 Marketing You,RE1012-001,C3,
-RE1016 Marketing You,RE1016-001,A2,
-RE1016 Marketing You,RE1016-002,E2,
-RE1016 Marketing You,RE1016-003,D3,
-RE1016 Marketing You,RE1016-004,G3,
-RE1016 Marketing You,RE1016-005,F3,
-RE1016 Marketing You,RE1016-006,B4,
-RE1020 Financial Planning,RE1016-007,F4,
-RE1020 Financial Planning,RE1020-001,B2,
-RE1020 Financial Planning,RE1020-002,F3,
-SE4001 Emergency Care,RE1020-003,A4,
-SEM0002 Precalculus Co-Requisite,SE4001-001,B124L,
-SEM0004 Calculus Co-Requisite,SEM0002-001,G13L,
-SEM0004 Calculus Co-Requisite,SEM0004-001,G13L,
-SL1000 Service Learning,SEM0004-002,G15L,
-SL1001 Campus Service,SL1000-001,M12345,
-SP3051 Journeys into Spanish I,SL1001-001,M12345,
-SP3051 Journeys into Spanish I,SP3051-001,B1245,
-SP3051 Journeys into Spanish I,SP3051-002,D1235,
-SP3651 Navigating in Spanish I,SP3051-003,E1235,
-SP3651 Navigating in Spanish I,SP3651-002,B1245,
-SP3651 Navigating in Spanish I,SP3651-003,E1235,
-SP4051 Advanced Spanish for Global Applications I,SP3651-004,D1235,
-SP4051 Advanced Spanish for Global Applications I,SP4051-001,D1235,
-SP4651 Readings in Spanish with Topics I,SP4051-002,A1234,
-SS4020 Sociology,SP4651-001,G135L,
-SS4030 Medical Sociology,SS4020-001,A134,
-SS4050 AP Psychology,SS4030-001,E135,
-SS4060 AP Microeconomics,SS4050-001,C1345,
-SS4081 Topics in History/Social Science I: The 2020 Presidnetial Election,SS4060-002,G135L,
-VS1002 Men's Soccer,SS4081-001,A134,
-VS1004 Women's Volleyball,VS1002-001,M12345,
-VS1006 Women's Tennis,VS1004-001,M12345,
-VS1008 Cross-Country,VS1006-001,M12345,
-VS1010 Competitive Cheer,VS1008-001,M12345,
-VS1012 Women's Golf,VS1010-001,M12345,
-,VS1012-001,M12345,
+Course Name,Identifier,Block
+AR4100 Drawing,AR4100-001,C13L5
+AR4110 Painting,AR4110-001,D135L
+AR4310 Digital Photography,AR4310-001,H24
+AR4320 Art and Technology,AR4320-001,G3L5L
+AR4500 Advanced Drawing,AR4500-001,M12345
+AR4510 Advanced Painting,AR4510-001,M12345
+AR4520 Advanced Studio Art,AR4520-001,M12345
+AS4030 Writing and American Studies,AS4030-001,A12L34
+AS4030 Writing and American Studies,AS4030-002,A12L34
+AS4030 Writing and American Studies,AS4030-003,B124L5
+AS4030 Writing and American Studies,AS4030-004,B124L5
+AS4050 American Studies,AS4050-001,A12L34
+AS4050 American Studies,AS4050-002,A12L34
+AS4050 American Studies,AS4050-003,B124L5
+AS4050 American Studies,AS4050-004,B124L5
+AS4050 American Studies,AS4050-005,C13L45
+AS4050 American Studies,AS4050-006,C13L45
+AS4050 American Studies,AS4050-007,C13L45
+AS4050 American Studies,AS4050-008,C13L45
+AS4050 American Studies,AS4050-009,D1235L
+AS4050 American Studies,AS4050-010,D1235L
+AS4050 American Studies,AS4050-011,D1235L
+AS4050 American Studies,AS4050-012,E12L35
+AS4050 American Studies,AS4050-013,E12L35
+AS4050 American Studies,AS4050-014,E12L35
+AS4050 American Studies,AS4050-015,E12L35
+AS4050 American Studies,AS4050-016,E12L35
+AS4050 American Studies,AS4050-017,E12L35
+AS4050 American Studies,AS4050-018,F134L5
+AS4050 American Studies,AS4050-019,F134L5
+AS4050 American Studies,AS4050-020,F134L5
+AS4050 American Studies,AS4050-021,F134L5
+AS4050 American Studies,AS4050-022,G13L5L
+AS4050 American Studies,AS4050-023,G13L5L
+BI3580 Classical Genetics (*M*),BI3580-001,C13L45
+BI3640 Developmental Biology (*R*),BI3640-001,A12L34
+BI3640 Developmental Biology (*R*),BI3640-002,E12L35
+BI4010 Anatomy & Physiology,BI4010-001,B124L5
+BI4010 Anatomy & Physiology,BI4010-002,D1235L
+BI4010 Anatomy & Physiology,BI4010-003,F134L5
+BI4020 Ecology (*R*),BI4020-001,B124L5
+BI4020 Ecology (*R*),BI4020-002,F134L5
+BI4040 Climate Change Biology (*M*),BI4040-001,A12L34
+BI4040 Climate Change Biology (*M*),BI4040-002,E12L35
+BI4110 Molecular Genetics (*R*),BI4110-001,A12L34
+BI4110 Molecular Genetics (*R*),BI4110-002,E12L35
+BI4120 Population Genetics (*M*),BI4120-001,B124L5
+BI4210 AP Biology (I) (*R*),BI4210-001,B124L5
+BI4210 AP Biology (I) (*R*),BI4210-003,D1235L
+BI4922 Research in Biology III (*R*),BI4922-001,F134L5G13L5L
+BI4922 Research in Biology III (*R*),BI4922-002,F134L5G13L5L
+CH3500 Chemistry Core - Atoms & Molecules,CH3500-001,A12L34
+CH3500 Chemistry Core - Atoms & Molecules,CH3500-002,E12L35
+CH3500 Chemistry Core - Atoms & Molecules,CH3500-003,C13L45
+CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-001,D1235L
+CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-001,A12L34
+CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-003,E12L35
+CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-004,C13L45
+CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-005,B124L5
+CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-006,F134L5
+CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-007,B124L5
+CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-008,F134L5
+CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-009,D1235L
+CH4020 AP Chemistry (I): Atoms & Molecules (*M*),CH4020-010,G13L5L
+CH4130 Organic Chemistry,CH4130-001,C13L45
+CH4130 Organic Chemistry,CH4130-002,B124L5
+CH4280 Materials Chemistry (*R*),CH4280-001,A12L34
+CH4911 Research Computational Sci II,CH4911-001,F1345
+CH4922 Research Chem III (*R*),CH4922-001,F134L5G13L5L
+CH4922 Research Chem III (*R*),CH4922-002,F134L5G13L5L
+CN3051 Journeys into Chinese I,CN3051-001,C1345
+CN3051 Journeys into Chinese I,CN3051-002,D1235
+CN3651 Navigating in Chinese + Global Understanding I,CN3651-001,C13L45
+CN3651 Navigating in Chinese + Global Understanding I,CN3651-002,D1235L
+CN4051 Advanced Chinese I,CN4051-001,A1234
+CN4651 Readings in Chinese with Topics I,CN4651-001,B1245
+CN4851 AP Chinese Language and Culture I,CN4851-001,B1245
+CS4020 Web Development,CS4020-001,D1235L
+CS4020 Web Development,CS4020-002,E12L35
+CS4020 Web Development,CS4020-003,C13L45
+CS4040 Game Design and Simulation,CS4040-001,E12L35
+CS4240 Procedural and Object-Oriented Programming,CS4240-001,B124L5
+CS4240 Procedural and Object-Oriented Programming,CS4240-002,F134L5
+CS4260 Java with Topics,CS4260-001,A12L34
+CS4340 Data Structures with C,CS4340-001,C13L45
+DR4101 Theater Performance Workshop,DR4101-001,H3
+EE3100 CAD/CAM,EE3100-001,A12L34
+EE4000 Mechanical Engineering,EE4000-001,B124L5
+EE4000 Mechanical Engineering,EE4000-002,F134L5
+EE4020 Electrical Engineering,EE4020-001,B124L5
+EE4020 Electrical Engineering,EE4020-002,D1235L
+EE4040 Architecture,EE4040-001,G13L5L
+EE4080 Biomedical Engineering,EE4080-000,A12L34
+EE4080 Biomedical Engineering,EE4080-001,C13L45
+EE4100 Introductory Robotics,EE4100-001,D1235L
+EN4201 African Studies I,EN4201-001,A12L4
+EN4201 African Studies I,EN4201-002,E12L5
+EN4211 Asian Studies I,EN4211-001,B14L5
+EN4211 Asian Studies I,EN4211-002,F14L5
+EN4241 Western European Cultural Studies I,EN4241-001,H13
+EN4241 Western European Cultural Studies I,EN4241-001,I13
+"EN4251 Western Civilizations I: Wisdom, Revelation, Reason, and Doubt",EN4251-001,D135L
+EN4400 AI in Science Fiction,EN4400-001,B124L
+EN4410 British Literature and Culture,EN4410-001,B14L5
+EN4420 Classical Myth: Epic and Tragedy,EN4420-001,G135L
+EN4430 Modern World Fiction,EN4430-001,H24
+EN4460 Southern Studies,EN4460-001,C13L5
+EN4470 STEM and the Stage,EN4470-001,G135L
+EN4481 Topics in Literature I: Modern Latin American Literature in Translation,EN4481-001,D135L
+EN4610 Research in the Humanities,EN4610-001,H13
+EN4610 Research in the Humanities,EN4610-002,H24
+FR3051 Journeys into French I,FR3051-001,A1234
+FR3651 Navigating in French I,FR3651-001,B1245
+FR4051 Advanced French for Global Applications I,FR4051-001,G13L5
+HU4000 Entrepreneurship,HU4000-001,H4
+HU4410 Critical Race Theory,HU4410-001,C13L5
+"HU4450 Race, Leadership, and Ethics",HU4450-001,A12L4
+HU4460 Topics in Humanities I,HU4460-001,G135L
+"HU4490 Women's, Gender, and Sexuality Studies",HU4490-001,F14L5
+"HU4490 Women's, Gender, and Sexuality Studies",HU4490-002,D135L
+JA3051 Journeys into Japanese I,JA3051-001,C135H4
+JA3651 Navigating in Japanese I,JA3651-001,D135H4,
+LA3051 Latin Elements I,LA3051-001,A12L4
+LA3650 Latin Boot Camp,LA3650-001,B14L5
+LA4661 Ovid's Metamorphoses I,LA4661-001,D135L
+MA4000 Precalculus & Modeling w/ Advanced Topics I,MA4000-001,E12L35
+MA4000 Precalculus & Modeling w/ Advanced Topics I,MA4000-003,B124L5
+MA4000 Precalculus & Modeling w/ Advanced Topics I,MA4000-005,F134L5
+MA4000 Precalculus & Modeling w/ Advanced Topics I,MA4000-007,A12L34
+MA4010 Biocalculus,MA4010-001,E12L5
+MA4020 AP Calculus AB w/ Advanced Topics I,MA4020-001,B124L5
+MA4020 AP Calculus AB w/ Advanced Topics I,MA4020-002,F134L5
+MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-001,E12L35
+MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-002,C13L45
+MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-003,B124L5
+MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-004,B124L5
+MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-005,F134L5
+MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-006,A12L34
+MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-007,D1235L
+MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-008,F134L5
+MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-009,C13L45
+MA4030 AP Calculus BC w/ Advanced Topics I,MA4030-010,E12L35
+MA4032 AP Calculus BC w/ Adcanced Topics II,MA4032-001,G13L5L
+MA4050 Modeling with Differential Equations,MA4050-001,E12L35
+MA4050 Modeling with Differential Equations,MA4050-002,A12L34
+MA4060 Multivariable Calculus,MA4060-001,F134L5
+MA4060 Multivariable Calculus,MA4060-002,D1235L
+MA4060 Multivariable Calculus,MA4060-003,E12L35
+MA4100 AP Statistics w/ Advanced Topics I,MA4100-001,C13L45
+MA4100 AP Statistics w/ Advanced Topics I,MA4100-002,D1235L
+MA4100 AP Statistics w/ Advanced Topics I,MA4100-003,F134L5
+MA4110 Foundations of Data Science,MA4110-001,C13L45
+MA4110 Foundations of Data Science,MA4110-002,A12L34
+MA4220 Mathematical Modeling,MA4220-001,D1235L
+MA4220 Mathematical Modeling,MA4220-002,G13L5L
+MA4500 Graph Theory with REX Math,MA4500-001,A12L34
+MA4500 Graph Theory with REX Math,MA4500-002,C13L45
+MR4040 Engage to Impact,MR4040-001,M12345
+MR4050 Mentorship: Senior Research,MR4050-001,F14LE2L
+MU3500 Classical Piano and Guitar,MU3500-001,E135
+MU3500 Classical Piano and Guitar,MU3500-002,D125
+MU3500 Classical Piano and Guitar,MU3500-003,G135
+MU4100 Chorale,MU4100-001,H24
+MU4110 Wind Ensemble,MU4110-001,H4C3L5
+MU4110 Wind Ensemble,MU4110-002,H4F35
+MU4120 Jazz Performance Workshop,MU4120-001,C14
+MU4130 Orchestra,MU4130-001,H2C3L5
+MU4130 Orchestra,MU4130-002,H2F35
+MU4300 Music Theory and Composition,MU4300-001,M12345
+PA1000 Racquet Sports I,PA1000-001,A2L
+PA1001 Racquet Sports II,PA1001-001,E2L
+PA1002 Outdoor Recreation,PA1002-001,B4L
+PA1003 Disc Sports,PA1003-001,C3L
+PA1004 Archery,PA1004-001,F4L
+PA1005 Weight Trng/Sprts & Fitness,PA1005-001,G3L
+PA1006 Team Sports,PA1006-001,D5L
+PA1006 Team Sports,PA1006-002,G5L
+PA1007 Pilates & Yoga,PA1007-001,A2L
+PA1007 Pilates & Yoga,PA1007-002,E2L
+PA1008 Self Defense,PA1008-001,C3L
+PH3040 Astronomy,PH3040-001,F134L5
+PH3500 Physics Core: Mechanics,PH3500-001,C13L45
+PH3500 Physics Core: Mechanics,PH3500-002,B124L5
+PH3500 Physics Core: Mechanics,PH3500-003,F134L5
+PH3500 Physics Core: Mechanics,PH3500-004,D1235L
+PH3500 Physics Core: Mechanics,PH3500-005,A12L34
+PH3500 Physics Core: Mechanics,PH3500-006,E12L35
+PH4020 Physics Core: Mechanics (Math Intensive) (*M*),PH4020-001,A12L34
+PH4020 Physics Core: Mechanics (Math Intensive) (*M*),PH4020-002,E12L35
+PH4020 Physics Core: Mechanics (Math Intensive) (*M*),PH4020-003,C13L45
+PH4020 Physics Core: Mechanics (Math Intensive) (*M*),PH4020-004,B124L5
+PH4020 Physics Core: Mechanics (Math Intensive) (*M*),PH4020-005,F134L5
+PH4020 Physics Core: Mechanics (Math Intensive) (*M*),PH4020-007,B124L5
+PH4020 Physics Core: Mechanics (Math Intensive) (*M*),PH4020-006,D1235L
+PH4130 Computational Physics,PH4130-001,C13L45
+PH4240 AP Physics C: Mechanics,PH4180-001,G13L5L
+PH4240 AP Physics C: Mechanics,PH4240-001,A12L34
+PH4250 Modern Physics,PH4240-002,E12L35
+PH4260 Quantum Mechanics,PH4250-001,D1235L
+PH4922 Research in Physics III (*R*),PH4260-001,C13L45
+RE1002 Cornerstone,PH4922-001,F134L5G13L5L
+RE1002 Cornerstone,RE1002-001,D2
+RE1002 Cornerstone,RE1002-002,B2
+RE1002 Cornerstone,RE1002-003,B2
+RE1002 Cornerstone,RE1002-004,A2
+RE1002 Cornerstone,RE1002-005,E2
+RE1002 Cornerstone,RE1002-006,A3
+RE1002 Cornerstone,RE1002-007,D3
+RE1002 Cornerstone,RE1002-008,C3
+RE1002 Cornerstone,RE1002-009,G3
+RE1002 Cornerstone,RE1002-010,F3
+RE1002 Cornerstone,RE1002-011,E3
+RE1002 Cornerstone,RE1002-012,C4
+RE1002 Cornerstone,RE1002-013,A4
+RE1002 Cornerstone,RE1002-014,A4
+RE1002 Cornerstone,RE1002-015,B4
+RE1010 Exploring MultiCultural Amer,RE1002-016,F4
+RE1012 Public Speaking,RE1010-001,E3
+RE1016 Marketing You,RE1012-001,C3
+RE1016 Marketing You,RE1016-001,A2
+RE1016 Marketing You,RE1016-002,E2
+RE1016 Marketing You,RE1016-003,D3
+RE1016 Marketing You,RE1016-004,G3
+RE1016 Marketing You,RE1016-005,F3
+RE1016 Marketing You,RE1016-006,B4
+RE1020 Financial Planning,RE1016-007,F4
+RE1020 Financial Planning,RE1020-001,B2
+RE1020 Financial Planning,RE1020-002,F3
+SE4001 Emergency Care,RE1020-003,A4
+SEM0002 Precalculus Co-Requisite,SE4001-001,B124L
+SEM0004 Calculus Co-Requisite,SEM0002-001,G13L
+SEM0004 Calculus Co-Requisite,SEM0004-001,G13L
+SL1000 Service Learning,SEM0004-002,G15L
+SL1001 Campus Service,SL1000-001,M12345
+SP3051 Journeys into Spanish I,SL1001-001,M12345
+SP3051 Journeys into Spanish I,SP3051-001,B1245
+SP3051 Journeys into Spanish I,SP3051-002,D1235
+SP3651 Navigating in Spanish I,SP3051-003,E1235
+SP3651 Navigating in Spanish I,SP3651-002,B1245
+SP3651 Navigating in Spanish I,SP3651-003,E1235
+SP4051 Advanced Spanish for Global Applications I,SP3651-004,D1235
+SP4051 Advanced Spanish for Global Applications I,SP4051-001,D1235
+SP4651 Readings in Spanish with Topics I,SP4051-002,A1234
+SS4020 Sociology,SP4651-001,G135L
+SS4030 Medical Sociology,SS4020-001,A134
+SS4050 AP Psychology,SS4030-001,E135
+SS4060 AP Microeconomics,SS4050-001,C1345
+SS4081 Topics in History/Social Science I: The 2020 Presidnetial Election,SS4060-002,G135L
+VS1002 Men's Soccer,SS4081-001,A134
+VS1004 Women's Volleyball,VS1002-001,M12345
+VS1006 Women's Tennis,VS1004-001,M12345
+VS1008 Cross-Country,VS1006-001,M12345
+VS1010 Competitive Cheer,VS1008-001,M12345
+VS1012 Women's Golf,VS1010-001,M12345
