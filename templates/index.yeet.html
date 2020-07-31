@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class='banner'>
+    <span id="spannySpan"><div class='banner'>
         <b>NCSSM Schmaker 2020-2021</b>
     </div>
     <h1>Enter Your Courses</h1>
@@ -70,11 +70,12 @@
             <!-- <h3># of Possible Schedules:</h3><span id="possib">To Be Calculated</span> -->
         </div>
     </div>
-    <div id="calbuttons" hidden>Choose a Calendar<br><button onclick="view1();">Semester 1</button><button onclick="view2();">Semester 2</button><button class="clear" onclick="clear_func();">Clear Calendars</button><!--<button onclick="printer();">Print!</button></button>-->
+    <div id="calbuttons" hidden>Choose a Calendar<br><button onclick="view1();">Semester 1</button><button onclick="view2();">Semester 2</button><button class="clear" onclick="clear_func();">Clear Calendars</button><button onclick="prints();">Print!</button></button>
     </div>
-    <div id="2020-2021 NCSSM Timetable_22799" align=center x:publishsource="Excel" class="timetable1" hidden>
+    </span>
+    <div id="2020-2021 NCSSM Timetable_22799" align=center x:publishsource="Excel" class="timetable1 timey" hidden>
         <br><br>
-        <table width=100px align="center">
+        <table width=100px align="center" class="buttonyButton">
             <tr>
             <td align="right"><button onclick="calVal1 -= 1; set_cals();" class="shiftPoss">Previous</button></td>
             <td align="center"><p class="cVal1_pos"></p></td>
@@ -82,7 +83,7 @@
             </tr>
         </table>
         <br>
-        <table border=0 cellpadding=0 cellspacing=0 width=1033 style='border-collapse:
+        <table class="contenty" border=0 cellpadding=0 cellspacing=0 width=1033 style='border-collapse:
          collapse;table-layout:fixed;width:778pt'>
          <col width=33 style='mso-width-source:userset;mso-width-alt:1206;width:25pt'>
          <col width=55 style='mso-width-source:userset;mso-width-alt:2011;width:41pt'>
@@ -431,7 +432,7 @@
          </tr>
          <![endif]>
         </table>
-        <table width=100 align="center">
+        <table width=100 align="center" class="buttonyButton">
             <tr>
             <td align="right"><button onclick="calVal1 -= 1; set_cals();" class="shiftPoss">Previous</button></td>
             <td align="center"><p class="cVal1_pos"></p></td>
@@ -440,9 +441,9 @@
         </table>
         </div>
 
-    <div id="2020-2021 NCSSM Timetable_22799" align=center x:publishsource="Excel" class="timetable2" hidden>
+    <div id="2020-2021 NCSSM Timetable_22799" align=center x:publishsource="Excel" class="timetable2 timey" hidden>
         <br><br>
-        <table width=100 align="center">
+        <table width=100 align="center" class="buttonyButton">
             <tr>
             <td align="right"><button onclick="calVal2 -= 1; set_cals();" class="shiftPoss">Previous</button></td>
             <td align="center"><p class="cVal2_pos"></p></td>
@@ -450,7 +451,7 @@
             </tr>
         </table>
         <br>
-        <table border=0 cellpadding=0 cellspacing=0 width=1033 style='border-collapse:
+        <table  class="contenty" border=0 cellpadding=0 cellspacing=0 width=1033 style='border-collapse:
             collapse;table-layout:fixed;width:778pt'>
             <col width=33 style='mso-width-source:userset;mso-width-alt:1206;width:25pt'>
             <col width=55 style='mso-width-source:userset;mso-width-alt:2011;width:41pt'>
@@ -799,7 +800,7 @@
             </tr>
             <![endif]>
         </table>
-        <table width=100px align="center">
+        <table width=100px align="center" class="buttonyButton">
             <tr>
             <td align="right"><button onclick="calVal2 -= 1; set_cals();" class="shiftPoss">Previous</button></td>
             <td align="center"><p class="cVal2_pos"></p></td>
@@ -939,12 +940,30 @@
             }
         }
 
-        // function printer() {
-        //     $(".timetable1").attr("hidden", false);
-        //     $(".timetable2").attr("hidden", false);
-        //     print();
-        //     view1();
-        // }
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        async function printDiv(divname) { 
+            $('.buttonyButton').css('display', 'none');
+            var divContents = document.getElementsByClassName(divname + "1")[0].innerHTML; 
+            var divContents2 = document.getElementsByClassName(divname + "2")[0].innerHTML; 
+            var a = window.open('', '', 'height=776, width=1366'); 
+            a.document.write('<html>'); 
+            a.document.write("<head><link rel=\"stylesheet\" href=\"{{url_for('static', filename='table_stuff.css')}}\" /></head><body>"); 
+            a.document.write(divContents); 
+            a.document.write("<br/><br/><br/><br/>")
+            a.document.write(divContents2); 
+            a.document.write('</body></html>'); 
+            await sleep(500);
+            a.window.print();
+            a.document.close();
+        }
+
+        function prints() {
+            printDiv("timetable");
+        }
+
     </script>
 </body>
 
