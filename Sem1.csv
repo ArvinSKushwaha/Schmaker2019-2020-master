@@ -120,7 +120,7 @@ HU4460 Topics in Humanities I,HU4460-001,G135L
 "HU4490 Women's, Gender, and Sexuality Studies",HU4490-001,F14L5
 "HU4490 Women's, Gender, and Sexuality Studies",HU4490-002,D135L
 JA3051 Journeys into Japanese I,JA3051-001,C135H4
-JA3651 Navigating in Japanese I,JA3651-001,D135H4,
+JA3651 Navigating in Japanese I,JA3651-001,D135H4
 LA3051 Latin Elements I,LA3051-001,A12L4
 LA3650 Latin Boot Camp,LA3650-001,B14L5
 LA4661 Ovid's Metamorphoses I,LA4661-001,D135L
@@ -233,21 +233,21 @@ SEM0004 Calculus Co-Requisite,SEM0002-001,G13L
 SEM0004 Calculus Co-Requisite,SEM0004-001,G13L
 SL1000 Service Learning,SEM0004-002,G15L
 SL1001 Campus Service,SL1000-001,M12345
-SP3051 Journeys into Spanish I,SL1001-001,M12345
-SP3051 Journeys into Spanish I,SP3051-001,B1245
-SP3051 Journeys into Spanish I,SP3051-002,D1235
-SP3651 Navigating in Spanish I,SP3051-003,E1235
-SP3651 Navigating in Spanish I,SP3651-002,B1245
-SP3651 Navigating in Spanish I,SP3651-003,E1235
+SP3051 Journeys into Spanish I,SL1001-001,B1245
+SP3051 Journeys into Spanish I,SP3051-001,D1235
+SP3051 Journeys into Spanish I,SP3051-002,E1235
+SP3651 Navigating in Spanish I,SP3051-003,B1245
+SP3651 Navigating in Spanish I,SP3651-002,E1235
+SP3651 Navigating in Spanish I,SP3651-003,D1235
 SP4051 Advanced Spanish for Global Applications I,SP3651-004,D1235
-SP4051 Advanced Spanish for Global Applications I,SP4051-001,D1235
-SP4651 Readings in Spanish with Topics I,SP4051-002,A1234
-SS4020 Sociology,SP4651-001,G135L
-SS4030 Medical Sociology,SS4020-001,A134
-SS4050 AP Psychology,SS4030-001,E135
-SS4060 AP Microeconomics,SS4050-001,C1345
-SS4081 Topics in History/Social Science I: The 2020 Presidnetial Election,SS4060-002,G135L
-VS1002 Men's Soccer,SS4081-001,A134
+SP4051 Advanced Spanish for Global Applications I,SP4051-001,A1234
+SP4651 Readings in Spanish with Topics I,SP4051-002,G135L
+SS4020 Sociology,SP4651-001,A134
+SS4030 Medical Sociology,SS4020-001,E135
+SS4050 AP Psychology,SS4030-001,C1345
+SS4060 AP Microeconomics,SS4050-001,G135L
+SS4081 Topics in History/Social Science I: The 2020 Presidnetial Election,SS4060-002,A134
+VS1002 Men's Soccer,SS4081-001,M12345
 VS1004 Women's Volleyball,VS1002-001,M12345
 VS1006 Women's Tennis,VS1004-001,M12345
 VS1008 Cross-Country,VS1006-001,M12345

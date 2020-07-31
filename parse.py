@@ -2,7 +2,7 @@ import csv
 from pprint import pprint
 import sys
 
-for i in range(1, 2):
+for i in range(1, 3):
     w = str(i)
     with open("Sem" + w + ".csv", "r") as f:
         courses = list(csv.reader(f))[1:]
