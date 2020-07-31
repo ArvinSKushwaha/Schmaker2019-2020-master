@@ -1,5 +1,5 @@
 Physics Core: E&M (Math Intensive) (*M*)
-A12L34
+B124L5
 F134L5
 C13L45
-B124L5
+A12L34

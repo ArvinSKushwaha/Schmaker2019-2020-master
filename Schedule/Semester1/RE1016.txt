@@ -1,8 +1,8 @@
 Marketing You
 D3
-F3
-E2
-A2
 G3
+F3
 B4
-C3
+F4
+A2
+E2
