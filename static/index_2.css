@@ -1064,15 +1064,6 @@ h3 {
   text-align: left;
 }
 
-@media print {
-  html {
-    transform: scale(0.5) !important;
-  }
-  table {
-    page-break-inside: avoid !important;
-  }
-}
-
 .linker {
   padding: 10px;
   border: 1px solid lightgray;

@@ -888,3 +888,7 @@ br {
   * {-webkit-print-color-adjust: exact;}
   .contenty {page-break-after: always; page-break-inside: avoid}
 }
+
+.buttonyButton {
+  display: none;
+}

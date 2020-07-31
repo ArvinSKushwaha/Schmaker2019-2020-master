@@ -944,8 +944,7 @@
             return new Promise(resolve => setTimeout(resolve, ms));
         }
 
-        async function printDiv(divname) { 
-            $('.buttonyButton').css('display', 'none');
+        async function printDiv(divname) {
             var divContents = document.getElementsByClassName(divname + "1")[0].innerHTML; 
             var divContents2 = document.getElementsByClassName(divname + "2")[0].innerHTML; 
             var a = window.open('', '', 'height=776, width=1366'); 
