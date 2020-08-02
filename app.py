@@ -76,7 +76,7 @@ def home2():
     if(request.method == "POST"):
         r = request.form
         rows = len(r)//2
-        pprint(r)
+        # pprint(r)
 
         success = []
         combo_count = []
@@ -101,8 +101,10 @@ def home2():
             class_combinations = product(*options_per_class)
             possible_combos = []
             for combo in class_combinations:
+                print(combo, safe(combo))
                 if(safe(combo)):
                     possible_combos.append(combo)
+            pprint(possible_combos)
             combination_count = len(possible_combos) if all(classes) else 0
             combo_count.append(combination_count)
             if(combination_count > 0 or not all(classes)):
@@ -123,11 +125,60 @@ def home2():
                         curr_sched[key] = c
                 schedule.append(curr_sched)
             schedules.append(schedule)
-        # pprint(schedules)
         time_taken = f"Semester 1: {time_taken[0]//60} hrs {time_taken[0]%60} min<br>Semester 2: {time_taken[1]//60} hrs {time_taken[1]%60} min<br>"
         x = dumps([success,schedules,time_taken,combo_count])
         return x
-        
+
+@app.route("/custom", methods = ['GET', 'POST'])
+def home3():
+    if(request.method == "GET"):
+        with open("Custom1.txt") as f:
+            with open("Custom2.txt") as f2:
+                return render_template("index.yeeter.html", option=[f.read(), f2.read()])
+    if(request.method == "POST"):
+        r = request.form
+        rows = len(r)//2
+        # pprint(r)
+
+        success = []
+        combo_count = []
+        time_taken = [0, 0]
+        schedules = []
+
+        for semester in range(1, 3):
+            classes = []
+            possible_combos=[[]]
+            for choice in range(1, rows+1):
+                option = f"sem{semester}Choice{choice}" # Generates the keys for the request.form dictionary
+                try:
+                    classes.append(r.get(option).split()[0].upper()) # Gives a list of class IDs
+                    possible_combos[0].append(r.get(option).split()[-1].upper())
+                except IndexError:
+                    pass # Allow for blank spaces
+            combination_count = len(possible_combos) if all(classes) else 0
+            combo_count.append(combination_count)
+            if(combination_count > 0 or not all(classes)):
+                success.append(True)
+            else:
+                success.append(False)
+            if(combination_count > 0):
+                for class_ in possible_combos[0]:
+                    time_taken[semester-1] += minutes(class_)
+            
+            schedule = []
+            for curr_opt in possible_combos:
+                curr_sched = dict()
+                for key in KEYS:
+                    curr_sched.update([(key, '')])
+                for c, meet in zip(classes, curr_opt):
+                    for key in parse(meet):
+                        curr_sched[key] = c
+                schedule.append(curr_sched)
+            schedules.append(schedule)
+        time_taken = f"Semester 1: {time_taken[0]//60} hrs {time_taken[0]%60} min<br>Semester 2: {time_taken[1]//60} hrs {time_taken[1]%60} min<br>"
+        x = dumps([success,schedules,time_taken,combo_count])
+        return x
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)

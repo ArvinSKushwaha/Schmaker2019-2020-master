@@ -10,7 +10,7 @@
     <meta name=ProgId content=Excel.Sheet>
     <meta name="google-site-verification" content="k5arWJmA_bBhNt7XtX8yexEInGglaJLuenobOM2kNA4" />
     <meta name=Generator content="Microsoft Excel 14">
-    <link rel="stylesheet" href="{{url_for('static', filename='index_2.css')}}" />
+    <link rel="stylesheet" href="{{url_for('static', filename='index_2_yeet.css')}}" />
 </head>
 
 <body>
@@ -21,7 +21,7 @@
     Each column represents a semester. Add new rows and select all of your courses. Then click "Calculate" to get your results.<br> Please note that if there are any conflicts, your schedule will not be generated. <br> The schedule will not perfectly
     match your real schedule due to classes not being finalized yet.<br>Also, once you open up the calendar, you can scroll through all of the possible schedules.<br><span style="color: red;">Note:</span> This does not guarantee that you will get your classes. This just improves the odds that you do.<br><br>
     <p align="center">Here are some useful links:</p>
-    <button align="center" class="linker" onclick='window.location.href="https://uniapp.ncssm.edu/registrar/catalog/course_catalog_beta1.3.1.php"'>Course Catalog</button><button align="center" onclick='window.location.href="https://registrar.ncssm.edu"' class="linker">NCSSM Registrar Website</button><button align="center" onclick='window.location.href="/custom"' class="linker">Custom Schedules</button>
+    <button align="center" class="linker" onclick='window.location.href="https://uniapp.ncssm.edu/registrar/catalog/course_catalog_beta1.3.1.php"'>Course Catalog</button><button align="center" onclick='window.location.href="https://registrar.ncssm.edu"' class="linker">NCSSM Registrar Website</button><button align="center" onclick='window.location.href="/"' class="linker">Main Schedule Maker</button>
     <br><br><br>
     <form class="form">
         <table border='1' align='center' class='entryTable'>
@@ -52,25 +52,7 @@
             </tbody>
         </table><br><br>
     </form>
-    <table class="conflicts" class="conflictTable" border=1 align="center">
-        <tbody class="mainTable">
-            <tr>
-                <td id="conflict0">Not Checked</td>
-                <td id="conflict1">Not Checked</td>
-            </tr>
-            <tr>
-                <td id="sem0count">N/A</td>
-                <td id="sem1count">N/A</td>
-            </tr>
-        </tbody>
-    </table>
-    <div class="data">
-        <div id="GPACalc">
-            <h3>Hours/Week:</h3><span id="time_classes">To Be Calculated</span>
-            <!-- <h3># of Possible Schedules:</h3><span id="possib">To Be Calculated</span> -->
-        </div>
-    </div>
-    <div id="calbuttons" hidden>Choose a Calendar<br><button onclick="view1();">Semester 1</button><button onclick="view2();">Semester 2</button><button class="clear" onclick="clear_func();">Clear Calendars</button><button onclick="prints();">Print!</button></button>
+    <div id="calbuttons">Choose a Calendar<br><button onclick="view1();">Semester 1</button><button onclick="view2();">Semester 2</button><button class="clear" onclick="clear_func();">Clear Calendars</button><button onclick="prints();">Print!</button></button>
     </div>
     </span>
     <div id="2020-2021 NCSSM Timetable_22799" align=center x:publishsource="Excel" class="timetable1 timey" hidden>
@@ -857,34 +839,34 @@
         let sched;
         function get_validity() {
 
-            $.post('/', $('.form').serialize(), (data) => {
+            $.post('/custom', $('.form').serialize(), (data) => {
                 data2 = JSON.parse(data);
                 data = data2[0];
                 sched = data2[1];
                 $("#time_classes").html(data2[2])
                 
-                for (let i = 0; i < 2; i++) {
-                    if (data[i]) {
-                        document.getElementById('conflict' + i).innerHTML = 'No Conflicts';
-                        document.getElementById('conflict' + i).style.backgroundColor = "#6F6";
-                    } else {
-                        document.getElementById('conflict' + i).innerHTML = 'Conflicts';
-                        document.getElementById('conflict' + i).style.backgroundColor = "#F66";
-                    }
-                    if(data2[3][i] >= 1) {
-                        document.getElementById("sem" + i + "count").innerHTML = data2[3][i] + "<br>possible way(s) to arrange this/these classes without conflicts";
-                    }
-                    else {
-                        document.getElementById("sem" + i + "count").innerHTML = "N/A";
-                    }
-                }
-                if (data[0] && data[1]) {
-                    $('#calbuttons').attr('hidden', false);
-                    set_cals();
-                } else {
-                    $('#calbuttons').attr('hidden', true);
-                    hideall();
-                }
+                // for (let i = 0; i < 2; i++) {
+                //     if (data[i]) {
+                //         document.getElementById('conflict' + i).innerHTML = 'No Conflicts';
+                //         document.getElementById('conflict' + i).style.backgroundColor = "#6F6";
+                //     } else {
+                //         document.getElementById('conflict' + i).innerHTML = 'Conflicts';
+                //         document.getElementById('conflict' + i).style.backgroundColor = "#F66";
+                //     }
+                //     if(data2[3][i] >= 1) {
+                //         document.getElementById("sem" + i + "count").innerHTML = data2[3][i] + "<br>possible way(s) to arrange this/these classes without conflicts";
+                //     }
+                //     else {
+                //         document.getElementById("sem" + i + "count").innerHTML = "N/A";
+                //     }
+                // }
+                // if (data[0] && data[1]) {
+                //     $('#calbuttons').attr('hidden', false);
+                //     set_cals();
+                // } else {
+                //     $('#calbuttons').attr('hidden', true);
+                //     hideall();
+                // }
             });
         }
 
